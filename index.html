@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Ravens Hunter</title>
+</head>
+<body>
+    <img id='raven' class='hidden' src="./assets/img/raven.png" alt="Raven">
+    <img id='boom' class='hidden' src="./assets/img/boom.png" alt="Boom">
+    <img id='target' class='hidden' src="./assets/img/target.png" alt="Target">
+    <img id='background' class='hidden' src="./assets/img/background.png" alt="Background">
+
+    <!-- Para que funcione la colisión por color de píxeles es necesario declarar el canvas
+         de la colisión primero -->
+    <canvas id="collisionCanvas" class="canvas hidden">Your browser does not support canvas API</canvas>
+    <canvas id="canvas" class="canvas">Your browser does not support canvas API</canvas>
+    <script type='module' src='./js/main.js'></script>
+</body>
+</html>
