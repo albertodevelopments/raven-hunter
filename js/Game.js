@@ -30,7 +30,7 @@ export class Game {
         this.frame = 0
         this.gameFrameInterval = 1000
         this.gameTimer = 0
-        this.levelUp = 5
+        this.levelUp = 20
     }
 
     checkMouseOverRaven() {
